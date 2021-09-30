@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+#container {
+    display: flex;
+}
+
+#left-pane {
+    color: blue;
+    width: 400px;
+    height: 100vh;
+}
+
+#right-pane {
+    background-color: rgb(8, 155, 253);
+    flex: 1;
+}
+
+#logo {
+    width: 60%;
+    margin: 20px auto;
+}
+#agora-logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.input-fields {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+    padding: 5px;
+    width: 90%;
+    border-radius: 10px;
+    border:2px solid rgb(8, 155, 253);
+}
+
+#submit-button {
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: rgb(8, 155, 253);
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
